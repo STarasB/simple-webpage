@@ -20,6 +20,7 @@
             <input type="surname" placeholder="Прізвище"required>
             </label>
             <br>
+            <br>
             <label>
             <input type="radio" name="Стать" value="Чоловік" checked>Чоловік
             </label>
@@ -28,6 +29,79 @@
             </label>
             <label>
             <input type="radio" name="Стать" value="Інша">Інша
+            </label>
+            <br>
+            <br>
+            <label>Який автомобіль Ви б обрали?</label>
+            <br>
+            <select>
+                <option selected></option>
+                <option>BMW</option>
+                <option>AUDI</option>
+                <option>Mercedes</option>
+                <option>Volkswagen</option>
+                <option>Інший</option>
+            </select>
+            <input type="text" name="avto" id="avto" list="mySuggestion" placeholder="Інший">
+            <datalist id="mySuggestion">
+                <option>Nissan</option>
+                <option>Peugeot</option>
+                <option>Opel</option>
+                <option>Ford</option>
+                <option>Volvo</option>
+                <option>Renault</option>
+                <option>Jeep</option>
+                <option>Doodge</option>
+                <option>Skoda</option>
+                <option>Chevrolet</option>
+                <option>Інший</option>
+            </datalist>
+            <br>
+            <br>
+            <label>Запропонувати свій варіант
+                <input type="text" placeholder="Свій варіант">
+            </label>
+            <br>
+            <br>
+            <label>Двигун:</label>
+            <label>
+                <input type="checkbox" name="Двигун" value="Бензин">Бензин
+            </label>
+            <label>
+                <input type="checkbox" name="Двигун" value="Дизель">Дизель
+            </label>
+            <label>
+                <input type="checkbox" name="Двигун" value="Гібрид">Гібрид
+            </label>
+            <label>
+                <input type="checkbox" name="Двигун" value="Електро">Електро
+            </label>
+            <br>
+            <br>
+            <label>Об'єм двигуна (л)
+                <input type="text" placeholder="3,5">
+            </label>
+            <br>
+            <br>
+            <label>Коробка переключення передач</label>
+            <select name="kpp" id="kpp" multiple size="2">
+                <option>Автомат</option>
+                <option>Механіка</option>
+                <option>Типтронік</option>
+                <option>Варіатор</option>
+                <option>Робот</option>
+            </select>
+            <br>
+            <br>
+            <label>Який колір Ви б обрали?
+                <br>
+                <input type="color" name="Колір" id="color">
+            </label>
+            <br>            
+            <br>
+            <label>Які автомобілі Ви б хотіли бачити на цій сторінці?
+                <br>
+                <textarea name="Опис" id="text" cols="60" rows="10" placeholder="Короткий опис"></textarea>
             </label>
             <br>
             <input type="submit">
